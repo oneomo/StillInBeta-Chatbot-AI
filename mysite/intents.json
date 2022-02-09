@@ -1,0 +1,196 @@
+{
+    "intents": [
+      {
+        		"tag":"noanswer",
+        		"patterns": [""],
+        		"responses": [
+              "Nem értem! Kifejtenéd?",
+              "Kérlek fejtsd ki!",
+              "Ezt nem értem! Próbáld később újra!"           
+            ]
+        		
+      }, 
+      {
+            "tag":"greetings",
+            "patterns": [
+                "Szia",
+                "szia",
+                "szia uram",
+                "szia cica",
+                "Hey",
+                "Hogy vagy?",
+                "Van ott valaki?",
+                "Hello",
+                "Szép napot"
+            ],
+            "responses": [
+                "Szia :-)",
+                "Szia",
+                "Üdv, mit tehetek érted?",
+                "Üdv itt, segíthetek valamiben?",
+              	"Hello, Petra vagyok, a programozó barátod!",
+                "Hey",
+                "Hogy vagy?",
+                "Valaki itt van?",
+                "Hello",
+                "Szép napot",
+                "Szép estét"
+            ]
+        },
+        {
+            "tag":"funny",
+            "patterns": [
+                "Mondj egy viccet!",
+                "Mondj valami vicceset!",
+                "Tudsz egy viccet?"
+                    
+            ],
+            "responses": [
+                "Mi a falusi abortusz? Lelövik a gólyát.",
+              	"Mi a szenilitás legelső jele? Hogy az ember elfelejti befejezni a…",
+              	"Miért Alien az Alien? Mert a Földön több nem él ilyen.",
+              	"Mi a kannibál gyerek kedvenc sütije? A térdkalács!",
+              	"Mi az, amit a disznók megállás nélkül esznek a vályúból? Szünetmentes táp."
+
+            ]
+        },
+      {
+            "tag":"thankings",
+            "patterns": [
+                "Köszi",
+                "Kösz",
+                "Köszönöm"
+                    
+            ],
+            "responses": [
+                "Szívesen",
+              	"Szívesen máskor is",
+              	"Akármikor ^-^"
+
+            ]
+        },
+       {
+            "tag":"goodbye",
+            "patterns": [
+                "Viszlát",
+                "További szép napot",
+                "Szia",
+              	"Most megyek,",
+      			"További szép napot"
+                    
+            ],
+            "responses": [
+                "Szia",
+              	"Viszlát",
+              	"Remélem még látjuk egymást",
+              	"Köszi, hogy velünk voltál",
+              	"További szép napot"
+
+            ]
+        },
+				{
+          	"tag":"learntostartprogram",
+          	"patterns": [
+              	"Hogy tanuljak meg programozni",
+              	"Hogyan kezdjek programozni",
+              	"Hogy kezdjek bele",
+              	"Hogyan áljak neki",
+              	"Merre kezdjem el",
+              	"Merre kezdjek neki"
+              	
+            ],
+          	"responses":[
+          		"A Python hivatalos oldalán kellene kezdj! Itt pontos dokumentációt találsz mindenről(is)! https://wiki.python.org/moin/BeginnersGuide \nIlletve magyarul: https://sulipy.hu/ \n Itt egy jó útmutató a különböző területekhez  https://roadmap.sh",
+                "A Python hivatalos oldalán kellene kezdj! Itt pontos dokumentációt találsz mindenről(is)! https://wiki.python.org/moin/BeginnersGuide \nIlletve magyarul: https://sulipy.hu/ \n Itt egy jó útmutató a különböző területekhez  https://roadmap.sh" 
+              	
+          	]
+        },
+		{
+          	"tag":"magyarrultanulni",
+          	"patterns": [
+              "Tanulhatok magyarul is programozni",
+              "Vannak e magyar nyelvű python útmutatók"
+              
+            ],
+          	"responses":[
+              "Persze, a sulipy remek lehetőséget nyújt, hogy magyarul is tanulhass! https://sulipy.hu/ Illetve az idomárunk is megérkezett! \nhttps://pythonidomar.wordpress.com/",
+              "Persze, a sulipy remek lehetőséget nyújt, hogy magyarul is tanulhass! https://sulipy.hu/ Illetve az idomárunk is megérkezett! \nhttps://pythonidomar.wordpress.com/"
+            ]
+        },
+		{
+          	"tag":"miazabackend",
+          	"patterns": [
+              "Mi az a backend?",
+              "Mit csinál a backend fejlesztő?"
+            ],
+          	"responses":[
+              "A háttérben futó, vizuálisan nem látható kódokat nevezzük a backendnek, és a fejlesztő ezeket kezeli.",
+              "A háttérben futó, vizuálisan nem látható kódokat nevezzük a backendnek, és a fejlesztő ezeket kezeli."
+            ]
+        },
+		{
+          	"tag":"miazafrontend",
+          	"patterns": [
+              "Mi az a frontend?",
+              "Mit csinál a frontend fejlesztő?"
+              
+            ],
+          	"responses":[
+              "A szemmel látható, grafikus felületeket hívjuk frontendnek, és a fejlesztő ennek a kezelését végzi.",
+              "A szemmel látható, grafikus felületeket hívjuk frontendnek, és a fejlesztő ennek a kezelését végzi."
+            ]
+        },
+		{
+          	"tag":"fullstack",
+          	"patterns": [
+              "Mi az a fullstack?",
+              "Mit csinál a fullstack fejlesztő?"
+            ],
+          	"responses":[
+              "A fullstack magába foglalja a frontendet és a backendet.",
+              "A fullstack magába foglalja a frontendet és a backendet."
+            ]
+        },
+		{
+          	"tag":"hogylehetekwebfejleszto",
+          	"patterns": [
+              "Hogy lehetek web developer",
+              "Hogy lehetek webfejlesztő",
+              "Hogyan válhatok webfejlesztővé",
+              "Hogy vágjak bele a webfejlesztésbe",
+              "Mit kell tudnom, hogy webfejlesztő legyek"
+
+            ],
+          	"responses":[
+              "Az alábbi linken találsz egy jó útmutatót, hogy milyen sorrendben haladj! https://roadmap.sh/frontend",
+              "Az alábbi linken találsz egy jó útmutatót, hogy milyen sorrendben haladj! https://roadmap.sh/frontend"
+            ]
+        },
+		{
+          	"tag":"hogylehetbackendfejleszto",
+          	"patterns": [
+              "Hogy lehetek backend developer",
+              "Hogy lehetek backendfejlesztő",
+              "Hogyan válhatok backendfejlesztővé",
+              "Hogy vágjak bele a backendfejlesztésbe",
+              "Mit kell tudnom, hogy backendfejlesztő legyek"
+            ],
+          	"responses":[
+              "Az alábbi linken találsz egy jó útmutatót, hogy milyen sorrendben haladj! https://roadmap.sh/backend",
+              "Az alábbi linken találsz egy jó útmutatót, hogy milyen sorrendben haladj! https://roadmap.sh/backend"
+              ]},{
+            "tag":"programming-python",
+            "patterns": [
+                "Hogyan tanuljak pythont?",
+                "Hogy kezdjek el programozni?",
+                "Hogyan lehet belőlem programozó?",
+                "Milyen nyelven programozzak?",
+                "Hogyan álljak neki a programozásnak?"
+            ],
+            "responses": [
+                "Az alábbi linken találhatsz néhány hasznos információt: https://www.learnpython.org"
+            ]
+        }
+      
+    ]
+}

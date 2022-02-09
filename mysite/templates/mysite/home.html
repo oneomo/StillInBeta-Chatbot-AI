@@ -1,0 +1,61 @@
+
+{% block content %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Still in Beta</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'mysite/style.css' %}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="module" src="{% static 'mysite/script.js' %}"></script>      
+    </head>
+    <body>
+        <div class="table-wrap">
+            
+            <table align="center">
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="other-message">Szia Petra vagyok! Kérdezz valamit!</td>
+                    <td></td>
+                </tr>
+                <tr id = 'textBoxosSor'>
+                    <td colspan='3'><input type="text" id="text" placeholder="type something here..."></td>
+                    <td><button id="submitButton">Submit</button></td>
+                </tr>
+            </table>
+            
+        </body>
+        </div>
+</html>
+{% endblock %}
