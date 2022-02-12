@@ -111,7 +111,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@SChatbotai](https://twitter.com/SChatbotai) - StillInBeta.ChatbotAI@protonmail.com
 
 Project Link: [https://github.com/oneomo/StillInBeta-Chatbot-AI](https://github.com/oneomo/StillInBeta-Chatbot-AI)
 
