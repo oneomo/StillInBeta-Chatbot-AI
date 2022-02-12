@@ -10,7 +10,7 @@
 <h3 align="center">StillInBeta-Chatbot-AI</h3>
 
   <p align="center">
-    project_description <br/>
+    A Multifunctional chatbot with sometimes rational responses!<br/>
     <a href="https://github.com/oneomo/StillInBeta-Chatbot-AI/issues">Request Feature | Report a Bug</a>
   </p>
 </div>
