@@ -7,9 +7,9 @@ const getCookie = name => {
     }
 //Csrf token kinyerése egy cookie-ból
 const csrfToken = getCookie('csrftoken');
-const textBoxValue = document.getElementById('text').value;
 document.querySelector("#submitButton").addEventListener("click", async e => {
 try { 
+    const textBoxValue = document.getElementById('text').value;
     if(textBoxValue === ''){
         $('<tr><td class = "other-message-warning">Kérlek írj valamit a textboxba!</td><td></td></tr>').insertBefore("#textBoxosSor");
     }
@@ -32,4 +32,4 @@ try {
     console.error(err);
     return;
 }
-}, {passive: true});
+}, {passive: true}); 
