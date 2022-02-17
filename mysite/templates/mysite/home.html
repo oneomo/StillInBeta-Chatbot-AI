@@ -13,33 +13,26 @@
          <script type="module" src="{% static 'mysite/script.js' %}"></script>      
      </head>
      <body>
-         <div class="navbar">
-                 <a href="#" class="hello">Hello {{request.user}}!</a>
-                 <a href="{% url 'logout' %}" class="logout">Log out</a>  
-         </div>
+        <header>
+            <li><a href="#" class="hello">Hello {{request.user}}!</a></li>
+            <li><a href="{% url 'logout' %}" class="logout">Log out</a> </li> 
+        </header>
          <div class="table-wrap">
 
              <table align="center">
-                 <tr>
-                     <td></td>
-                     <td></td>
-                 </tr>
-                 <tr>
-                     <td></td>
-                     <td></td>
-                 </tr>
-                 <tr>
-                     <td></td>
-                     <td></td>
-                 </tr>
-                 <tr>
-                     <td></td>
-                     <td></td>
-                 </tr>
-                 <tr>
-                     <td></td>
-                     <td></td>
-                 </tr>
+                 
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
                  <tr>
                      <td></td>
                      <td></td>
