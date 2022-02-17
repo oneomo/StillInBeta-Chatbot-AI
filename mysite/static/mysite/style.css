@@ -43,7 +43,9 @@ td{
     height: 30px;
     width: 100%;
     margin-left: 10px;
+    padding-left: 5px;
     font-size: 18px;
+    margin-bottom: 0;
 }
 #submitButton{
     border-radius: 15px;
@@ -57,6 +59,7 @@ td{
     cursor: pointer;
     margin-left: 1%;
     font-size: 18px;
+    margin-bottom: 0;
 }
 #btn:hover {background-color: #3e8e41}
 #btn:active {

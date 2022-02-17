@@ -22,7 +22,7 @@ def registerPage(request):
 			username = form.cleaned_data.get('username')
 
 
-			messages.success(request, 'Account was created for ' + username)
+			messages.success(request, 'Fiók létrehozva ' + username + ' számára')
 
 			return redirect('login')
 	context = {'form':form}
@@ -41,7 +41,7 @@ def loginPage(request):
 			login(request, user)
 			return redirect('home')
 		else:
-			messages.info(request, 'Username OR password is incorrect')
+			messages.info(request, 'A felhasználónév vagy a jelszó nem megfelelő')
 
 	context = {}
 	return render(request, 'mysite/login.html', context)
