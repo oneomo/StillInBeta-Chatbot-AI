@@ -15,9 +15,10 @@
     </head>
     <body>
         <div class="navbar">
-                            
-            <a href="#" class="hello">Hello User!</a>
-            <a href="{% url 'logout' %}" class="logout">Log out</a>
+            <header>
+                <a href="#" class="hello">Hello {{request.user}}!</a>
+                <a href="{% url 'logout' %}" class="logout">Log out</a>
+            </header>   
         </div>
         <div class="table-wrap">
             
