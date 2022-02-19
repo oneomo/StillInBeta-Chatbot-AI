@@ -5,6 +5,7 @@ from django.http import HttpResponse
 from .decorators import unauthenticated_user
 from django.contrib import messages
 from .ChatBotAnswer import makeAnswer
+from django.contrib.auth.decorators import login_required
 
 def home(request):
     if request.method == "POST":
