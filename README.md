@@ -49,10 +49,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <img src="media/projekt.png" alt="Projekt kép" width="600" height="300">
 
 
@@ -76,15 +72,15 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
--Python 3.7.9
--Django library
--Pytorch library
--NLTK library
+-Python 3.7.9</br>
+-Django library</br>
+-Pytorch library</br>
+-NLTK library</br>
 ### Installation
--Install python and the libraries mentioned in prerequisites with the usage of pip.
--Fork the project
--Go into the main folder then type: python manage.py runserver
--Open a web browser and go to 127.0.0.1/register url to registrate then you can log in with your given credentials and then you can use the application.
+-Install python and the libraries mentioned in prerequisites with the usage of pip.</br>
+-Fork the project</br>
+-Go into the main folder then type: python manage.py runserver</br>
+-Open a web browser and go to 127.0.0.1/register url to registrate then you can log in with your given credentials and then you can use the application.</br>
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
