@@ -53,6 +53,7 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<img src="media/projekt.png" alt="Projekt kép" width="600" height="300">
 
 
 ### Built With
@@ -72,15 +73,18 @@
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
- 
+-Python 3.7.9
+-Django library
+-Pytorch library
+-NLTK library
 ### Installation
-
+-Install python and the libraries mentioned in prerequisites with the usage of pip.
+-Fork the project
+-Go into the main folder then type: python manage.py runserver
+-Open a web browser and go to 127.0.0.1/register url to registrate then you can log in with your given credentials and then you can use the application.
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -88,7 +92,7 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+-You type something and our chatbot tries to give a logical response, right now it is not that developed, but she can give some responses.
  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
