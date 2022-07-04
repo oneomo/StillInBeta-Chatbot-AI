@@ -97,7 +97,9 @@ To get a local copy up and running follow these simple example steps.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@SChatbotai](https://twitter.com/SChatbotai) - StillInBeta.ChatbotAI@protonmail.com
+Social Media: [@SChatbotai](https://twitter.com/SChatbotai) </br>
+
+E-mail: StillInBeta.ChatbotAI@protonmail.com </br>
 
 Project Link: [https://github.com/oneomo/StillInBeta-Chatbot-AI](https://github.com/oneomo/StillInBeta-Chatbot-AI)
 
