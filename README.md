@@ -79,8 +79,7 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 -Install python and the libraries mentioned in prerequisites with the usage of pip.</br>
 -Fork the project</br>
--Go into the main folder then type: python manage.py runserver</br>
--Open a web browser and go to 127.0.0.1/register url to registrate then you can log in with your given credentials and then you can use the application.</br>
+
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -88,6 +87,8 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+-Go into the main folder then type: python manage.py runserver</br>
+-Open a web browser and go to 127.0.0.1/register url to registrate then you can log in with your given credentials and then you can use the application.</br>
 -You type something and our chatbot tries to give a logical response, right now it is not that developed, but she can give some responses.
  
 
