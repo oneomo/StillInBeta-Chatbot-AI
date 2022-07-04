@@ -23,9 +23,8 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      
       <ul>
-        <img src="media/projekt.png" alt="Projekt kép" width="600" height="300">
+        <li><img src="media/projekt.png" alt="Projekt kép" width="600" height="300"></li>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#built-with">Django</a></li>
         <li><a href="#built-with">Python</a></li>
